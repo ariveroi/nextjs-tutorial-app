@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import styles from './Navigation.module.css'
+import styles from "./Navigation.module.css";
 
 const links = [
   {
@@ -12,9 +12,9 @@ const links = [
     route: "/about",
   },
   {
-    label: 'Posts',
-    route: '/posts'
-  }
+    label: "Posts",
+    route: "/posts",
+  },
 ];
 
 const Navigation = () => {
